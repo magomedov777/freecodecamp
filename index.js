@@ -11,7 +11,7 @@ const req = () => {
     return "add Promise"
 }
 
+
 document.getElementById(id);
-document.getElementById(ip);
 
 console.log(id)
