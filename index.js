@@ -4,6 +4,14 @@ const addSum = (a, b) => {
     return a + b
 };
 
-function name() {
-    return
+const createName = null;
+let addName = "";
+
+const req = () => {
+    return "add Promise"
 }
+
+document.getElementById(id);
+document.getElementById(ip);
+
+console.log(id)
