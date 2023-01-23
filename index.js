@@ -1,17 +1,8 @@
-alert("Hello, world");
+const addMessage = document.getElementById(btn);
 
 const addSum = (a, b) => {
     return a + b
 };
 
-const createName = null;
-let addName = "";
+const arrUsers = ["John", "Andrew", "Mike", "Anne", "Julia"];
 
-const req = () => {
-    return "add Promise"
-}
-
-
-document.getElementById(id);
-
-console.log(id)
