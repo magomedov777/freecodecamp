@@ -13,3 +13,5 @@ function newUsers(users){
 document.getElementById(input) = function(newUsers){
     newUsers.bind();
 };  
+
+console.log(arrUsers);
