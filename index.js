@@ -259,7 +259,8 @@ function testElseIf(val) {
   }
 };
 
-console.log(testElseIf);
+
+
 
 
 
