@@ -213,11 +213,6 @@ function updateRecords(records, id, prop, value) {
   return records;
 }
 
-const myArray = [];
-  for (var i = 1; i < 6; i++) {
-  myArray.push(i);
-};
-
 function updateRecords(records, id, prop, value) {
   if (prop !== "tracks" && value !== "") {
     records[id][prop] = value;
@@ -230,6 +225,8 @@ function updateRecords(records, id, prop, value) {
   }
   return records;
 };
+
+
 
 
 
