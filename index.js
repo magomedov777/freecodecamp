@@ -8,14 +8,6 @@ function fun2() {
   }
 };
 
-function testEqual(val) {
-  if (val == 12) {
-    return "Equal";
-  }
-  return "Not Equal";
-};
-testEqual(10);
-
 function testStrict(val) {
   if (val===7) { 
     return "Equal";
