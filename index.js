@@ -109,6 +109,8 @@ function checkObj(obj, checkProp) {
   }
 };
 
+const checkObj = (obj, checkProp) => obj.hasOwnProperty(checkProp) ? obj[checkProp] : 'Not Found';
+
 function test(val) {
   if (val > 100) { 
     return "Over 100";
